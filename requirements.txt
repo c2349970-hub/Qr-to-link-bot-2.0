@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.14.0
+pyzbar==0.1.9
+Pillow==10.4.0
+easyocr==1.7.1
