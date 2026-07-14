@@ -10,7 +10,7 @@ from PIL import Image
 import io
 import easyocr
 
-TOKEN = os.environ.get('8497924600:AAEw3CHnp3V6QUz-zs3tbYSOmITE-qraIVI', '')
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '')
 if not TOKEN:
     raise RuntimeError("TELEGRAM_BOT_TOKEN environment variable is not set.")
 ADMIN_CHANNEL_ID = -1004290008401 
